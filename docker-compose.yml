@@ -1,0 +1,15 @@
+version: '3.9'
+services:
+  app:
+    image: daamtu-gen-ai-backend-image
+    container_name: daamtu-gen-ai-backend-container
+    ports:
+      - "8000:8000"
+    volumes:
+      # internal path - external path
+      - huggingface:/root/.cache/huggingface
+      - daamtu_gen_temp_files:/root/daamtu_gen_temp_files
+
+volumes:
+  huggingface:
+  daamtu_gen_temp_files:

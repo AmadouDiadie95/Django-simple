@@ -28,6 +28,7 @@ DEBUG = True
 ALLOWED_HOSTS = [
     '127.0.0.1',
     'localhost',
+    '*'
 ]
 
 # CONFIGURAIONS LIEES AU JSON WEB TOKEN..
@@ -78,6 +79,8 @@ MIDDLEWARE = [
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",  # Add your frontend URL here
     "http://127.0.0.1:8000",  # Add your frontend development server URL here
+    # all
+    "*"
 ]
 
 CORS_ALLOW_ALL_ORIGINS = True

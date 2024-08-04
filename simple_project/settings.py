@@ -28,6 +28,7 @@ DEBUG = True
 ALLOWED_HOSTS = [
     '127.0.0.1',
     'localhost',
+    'turkey-chili-qjwklasa3aiwaq25.salad.cloud'
 ]
 
 # CONFIGURAIONS LIEES AU JSON WEB TOKEN..
@@ -44,7 +45,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'rest_framework.authtoken',
-    # 'corsheaders',
+    'corsheaders',
     'main',
 ]
 

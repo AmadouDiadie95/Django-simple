@@ -17,3 +17,6 @@ python manage.py runserver 9000
 python -m venv venv         # create venv in new folder name "venv"
 .\venv\Scripts\activate
 
+
+chmod 777 00-activate-scripts.sh
+./00-activate-scripts.sh

@@ -28,7 +28,7 @@ DEBUG = True
 ALLOWED_HOSTS = [
     '127.0.0.1',
     'localhost',
-    'turkey-chili-qjwklasa3aiwaq25.salad.cloud'
+    'croutons-splitpea-58mhk29y99ol188f.salad.cloud'
 ]
 
 # CONFIGURAIONS LIEES AU JSON WEB TOKEN..

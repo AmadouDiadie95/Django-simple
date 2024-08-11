@@ -28,7 +28,7 @@ DEBUG = True
 ALLOWED_HOSTS = [
     '127.0.0.1',
     'localhost',
-    '*'
+    'coconut-cream-w2wbryoqemi1fms9.salad.cloud'
 ]
 
 # CONFIGURAIONS LIEES AU JSON WEB TOKEN..

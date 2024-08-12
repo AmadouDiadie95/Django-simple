@@ -28,7 +28,7 @@ DEBUG = True
 ALLOWED_HOSTS = [
     '127.0.0.1',
     'localhost',
-    'zucchini-herbs-3yrnp2a3tcah8n2g.salad.cloud'
+    'apple-lalab-y8130scp85qjq461.salad.cloud'
 ]
 
 # CONFIGURAIONS LIEES AU JSON WEB TOKEN..

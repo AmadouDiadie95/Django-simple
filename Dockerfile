@@ -16,5 +16,10 @@ RUN pip install -r /app/requirements.txt
 # Exposition du port 8000
 EXPOSE 9000
 
+RUN apt-get update
+RUN apt-get install net-tools -y
+RUN apt-get install socat -y
+RUN socat TCP6-LISTEN:8888,fork TCP4:127.0.0.1:9000 &
+
 # Point d'entrée pour exécuter l'application Django
 CMD ["python", "manage.py", "runserver", "127.0.0.1:9000"]

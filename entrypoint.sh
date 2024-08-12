@@ -7,7 +7,8 @@ chmod 777 00-activate-scripts.sh
 ./06-install-net-tools.sh
 ./08-socat-ipv6.sh
 ./03-create-venv.sh
-./04-install-requirements.sh
+source venv/bin/activate
+pip install -r requirements.txt
 python3 nohup.py
 
 # Keep the container running (optional)
